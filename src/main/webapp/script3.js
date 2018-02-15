@@ -1,7 +1,8 @@
 var boys = ["Peter", "lars", "Ole"];
 var girls = ["Janne", "hanne", "Sanne"];
 
-//document.getElementById("boys").setInnerText = boys.join();
+document.getElementById("home").onclick = function() {  
+    window.location.href='index.html'; };
 
 
 function printPersonsBoy(arr) {
