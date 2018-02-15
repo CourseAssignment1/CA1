@@ -5,28 +5,28 @@ var girls = ["Janne", "hanne", "Sanne"];
 
 
 function printPersonsBoy(arr) {
-    var str = "<table>";
+    var str = "<center><table>";
     arr.forEach(function (name) {
         str += "<tr><td>" + name + "</td></tr>";
     })
-    str += "</table>";
+    str += "</table></center>";
     document.getElementById("boys").innerHTML = str;
 }
 function printPersonsGirl(arr) {
-    var str = "<table>";
+    var str = "<center><table>";
     arr.forEach(function (name) {
         str += "<tr><td>" + name + "</td></tr>";
     })
-    str += "</table>";
+    str += "</table></center>";
     document.getElementById("girls").innerHTML = str;
 }
 function printPersonsAll(array) {
 
-    var str = "<table>";
+    var str = "<center><table>";
     array.forEach(function (name) {
         str += "<tr><td>" + name + "</td></tr>";
     })
-    str += "</table>";
+    str += "</table></center>";
     document.getElementById("all").innerHTML = str;
 }
 function createAllList() {
