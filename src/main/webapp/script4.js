@@ -1,6 +1,10 @@
 /* Dynamic UI manipulation 
  */
 
+//Handler, home button
+document.getElementById("home").onclick = function() {  
+    window.location.href='index.html'; };
+
 //a) implements page where a user is requested by id
 function getUser(){
     var id; //input
@@ -43,7 +47,7 @@ function getAll(){
             .then(res => res.json())
             .then(function(data){
                 //Start table
-                output += "<table><tr><th>Name</th><th>Phone</th></tr>";
+                output += "<table class='center'><tr><th>Name</th><th>Phone</th></tr>";
                 
                 //Get the Data array, and make a new Array containing some table-html and
                 //name and phone for each user in the data array.
