@@ -174,7 +174,7 @@ body {
     font-weight: bold;
 }
 
-#reset {
+#reset,#new {
     padding: .5em 1em;
     font-size: 1.2em;
     font-weight: bold;
@@ -183,7 +183,7 @@ body {
     border: 10px solid #E95D0F;
 }
 
-#reset:hover {
+#reset:hover,#new:hover {
     color: white;
     background-color: #E95D0F;
 }
