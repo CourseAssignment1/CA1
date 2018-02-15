@@ -13,6 +13,7 @@ function getUser(){
     
     //get value of input field
     id = document.getElementById("usernumber").value;
+    document.getElementById("usernumber").value = "";
     
     //If input is not valid (NaN or not between 1 and 10)
    if(isNaN(id) || id < 1 || id > 10){
