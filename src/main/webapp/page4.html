@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Dynamic UI manipulation
+a: 
+Observed the result of https://jsonplaceholder.typicode.com/users/1:
+Result is an object containing information about a user with id, name, username etc. 
+Is the number at the end of the URL changed, we get another user, with the given id.
+
+b:
+When the url https://jsonplaceholder.typicode.com/users is entered in the browser a list of 
+all user object is given.
 -->
 <html>
     <head>
@@ -15,7 +21,15 @@ and open the template in the editor.
             }
         </style>    </head>
     <body>
-        <div>TODO write content</div>
+        <div>
+            <p>Enter number between 1 and 10</p>
+            <input id="usernumber">
+            <button type="button" onclick="getUser()">Get User</button>
+            <button type="button" onclick="getAll()">Get All</button>
+            
+            <p id="output"></p>
+            
+        </div>
         
         
         <script src="script4.js"></script>
