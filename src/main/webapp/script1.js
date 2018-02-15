@@ -4,6 +4,9 @@ document.getElementById("calculate").onclick = calcResult;
 
 document.getElementById("buttons").onclick = getKey;
 
+document.getElementById("home").onclick = function() {  
+    window.location.href='index.html'; };
+
 function getKey(e) {
   var text = e.target.innerText;
   calcStr += text;

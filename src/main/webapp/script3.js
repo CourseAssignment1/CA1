@@ -1,7 +1,6 @@
 var boys = ["Peter", "lars", "Ole"];
 var girls = ["Janne", "hanne", "Sanne"];
 
-
 //document.getElementById("boys").setInnerText = boys.join();
 
 
@@ -110,11 +109,6 @@ function whatToDo(){
 }
 
 
-
-
-
-
-
 printPersonsBoy(boys);
 printPersonsGirl(girls);
 printPersonsAll(createAllList());
@@ -124,3 +118,4 @@ document.getElementById("removeboy").onclick = RemoveFromTopBoy;
 document.getElementById("removegirl").onclick = RemoveFromTopGirl;
 document.getElementById("reverse").onclick = ReverseNames;
 document.getElementById("sort").onclick = whatToDo;
+

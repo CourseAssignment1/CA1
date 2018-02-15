@@ -1,7 +1,11 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+document.getElementById("btn1").onclick = function() {  
+    window.location.href='page1.html'; };
 
+document.getElementById("btn2").onclick = function() {  
+    window.location.href='page2.html'; };
 
+document.getElementById("btn3").onclick = function() {  
+    window.location.href='page3.html'; };
+
+document.getElementById("btn4").onclick = function() {  
+    window.location.href='page4.html'; };
