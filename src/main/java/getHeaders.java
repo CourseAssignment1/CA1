@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Gert Lehmann Madsen
  */
-@WebServlet(urlPatterns = {"/getHeader"})
+@WebServlet(urlPatterns = {"/getHeaders"})
 public class getHeaders extends HttpServlet {
 
     /**
